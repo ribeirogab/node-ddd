@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "@ribeirogab/eslint-config/node"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*"
+      ],
+      "rules": {
+        "@typescript-eslint/adjacent-overload-signatures": "off"
+      }
+    },
+    {
+      "files": [
+        "vite.config.ts"
+      ],
+      "rules": {
+        "import/no-default-export": "off"
+      }
+    }
+  ]
+}
